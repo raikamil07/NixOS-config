@@ -34,19 +34,22 @@
   # Enable the X11 windowing system.
   # You can disable this if you're only using the Wayland session.
   # Enabling xfce
-   services.xserver = {
-    enable = true;
-    desktopManager = {
-      xterm.enable = false;
-      xfce.enable = true;
-    };
-  };
-  services.displayManager.defaultSession = "xfce";
+  # services.xserver = {
+  #  enable = true;
+  #  desktopManager = {
+  #    xterm.enable = false;
+  #    xfce.enable = true;
+  #  };
+  #};
+  #services.displayManager.defaultSession = "xfce";
 
+  services.xserver.enable = true;
   # Enable the KDE Plasma Desktop Environment.
-  #services.displayManager.sddm.enable = true;
-  #services.desktopManager.plasma6.enable = true;
-
+  services = {
+  	desktopManager.plasma6.enable = true;
+  	displayManager.sddm.enable = true;
+  	displayManager.sddm.wayland.enable = true;
+  };
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "us";
