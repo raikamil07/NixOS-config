@@ -124,6 +124,8 @@
     ghostty
     ffmpeg
     audacity
+    pavucontrol
+    distrobox
   ];
 
   #fonts installation
