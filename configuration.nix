@@ -122,6 +122,7 @@
     osu-lazer
     gparted
     ghostty
+    atlauncher
   ];
 
   #fonts installation
