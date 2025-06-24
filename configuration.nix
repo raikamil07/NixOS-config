@@ -121,7 +121,9 @@
     appimage-run
     osu-lazer
     gparted
-    ghostty 
+    ghostty
+    ffmpeg
+    audacity
   ];
 
   #fonts installation
