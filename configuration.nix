@@ -126,6 +126,7 @@
     audacity
     pavucontrol
     distrobox
+    tree
   ];
 
   #fonts installation
