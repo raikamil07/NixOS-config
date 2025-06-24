@@ -121,8 +121,7 @@
     appimage-run
     osu-lazer
     gparted
-    ghostty
-    atlauncher
+    ghostty 
   ];
 
   #fonts installation
