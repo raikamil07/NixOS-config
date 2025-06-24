@@ -116,6 +116,7 @@
     mangohud
     protonup
     jdk24
+    jre8
     wineWow64Packages.stable
     appimage-run
     osu-lazer
